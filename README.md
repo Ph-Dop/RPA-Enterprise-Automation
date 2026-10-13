@@ -3,7 +3,7 @@
 > RPA automation solution for SME office workflow automation.
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
-![Tests](https://img.shields.io/badge/tests-pytest-green)
+![CI](https://github.com/Ph-Dop/RPA-Enterprise-Automation/actions/workflows/ci.yml/badge.svg)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
 ## Project Intro
