@@ -1,0 +1,30 @@
+# ---- Python -------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# ---- Virtual environments -----------------------------------
+.venv/
+venv/
+
+# ---- Local secrets / personal config -------------------------
+config.ini
+.env
+
+# ---- Generated data & artifacts ------------------------------
+data/raw/*.csv
+data/cleaned/*.csv
+data/reports/*.xlsx
+data/logs/*.log
+data/*.db
+data/state.json
+
+# ---- Demo media (large files, keep out of git) ---------------
+demo/*.mp4
+
+# ---- Tooling caches ------------------------------------------
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
