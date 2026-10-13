@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Order Backend - Demo Store</title>
+<style>
+  body { font-family: "Segoe UI", Arial, sans-serif; margin: 24px; background: #f5f6f8; }
+  h1 { font-size: 20px; }
+  table { border-collapse: collapse; width: 100%; background: #fff; }
+  th, td { border: 1px solid #d0d4da; padding: 8px 12px; text-align: left; font-size: 14px; }
+  th { background: #1f4e79; color: #fff; }
+  tr:nth-child(even) { background: #f0f4f9; }
+  .status-completed { color: #1a7f37; font-weight: bold; }
+  .status-processing { color: #b25e09; }
+  .status-pending { color: #8a6d00; }
+  .toolbar { margin-bottom: 12px; }
+</style>
+</head>
+<body>
+  <h1>Demo Store - Order Management</h1>
+  <div class="toolbar">
+    <span style="color:#666">Showing 15 orders (automation demo backend - open this file locally with Yingdao RPA)</span>
+  </div>
+  <table id="order-table">
+    <thead>
+      <tr>
+        <th>order_id</th><th>customer</th><th>ordered_at</th><th>product</th><th>amount</th><th>status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>ORD-20001</td><td>Müller GmbH</td><td>2026-09-02</td><td>Ergo Office Chair</td><td>249.90</td><td class="status-completed">completed</td></tr>
+      <tr><td>ORD-20002</td><td>Schmidt & Söhne</td><td>2026-09-03</td><td>Height-adjustable Desk</td><td>899.00</td><td class="status-completed">completed</td></tr>
+      <tr><td>ORD-20003</td><td>Weber Handel</td><td>2026-09-04</td><td>LED Monitor Arm</td><td>89.50</td><td class="status-processing">processing</td></tr>
+      <tr><td>ORD-20004</td><td>Fischer KG</td><td>2026-09-05</td><td>Mechanical Keyboard</td><td>129.00</td><td class="status-completed">completed</td></tr>
+      <tr><td>ORD-20005</td><td>Wagner & Co</td><td>2026-09-06</td><td>4K Webcam</td><td>159.90</td><td class="status-pending">pending</td></tr>
+      <tr><td>ORD-20006</td><td>Becker GmbH</td><td>2026-09-07</td><td>Laptop Stand</td><td>49.90</td><td class="status-completed">completed</td></tr>
+      <tr><td>ORD-20007</td><td>Hoffmann OHG</td><td>2026-09-08</td><td>Wireless Mouse</td><td>39.90</td><td class="status-completed">completed</td></tr>
+      <tr><td>ORD-20008</td><td>Koch e.K.</td><td>2026-09-09</td><td>USB-C Dock</td><td>219.00</td><td class="status-processing">processing</td></tr>
+      <tr><td>ORD-20009</td><td>Richter GmbH</td><td>2026-09-10</td><td>Noise-cancel Headset</td><td>189.00</td><td class="status-completed">completed</td></tr>
+      <tr><td>ORD-20010</td><td>Klein & Partner</td><td>2026-09-11</td><td>Cable Organizer Kit</td><td>24.90</td><td class="status-completed">completed</td></tr>
+      <tr><td>ORD-20011</td><td>Alpha Elektronik</td><td>2026-09-12</td><td>Ergo Office Chair</td><td>249.90</td><td class="status-pending">pending</td></tr>
+      <tr><td>ORD-20012</td><td>Bavaria Werkzeuge</td><td>2026-09-13</td><td>Height-adjustable Desk</td><td>899.00</td><td class="status-completed">completed</td></tr>
+      <tr><td>ORD-20013</td><td>Rheinland Logistics</td><td>2026-09-14</td><td>LED Monitor Arm</td><td>89.50</td><td class="status-completed">completed</td></tr>
+      <tr><td>ORD-20014</td><td>Nordwind Trading</td><td>2026-09-15</td><td>Mechanical Keyboard</td><td>129.00</td><td class="status-processing">processing</td></tr>
+      <tr><td>ORD-20015</td><td>Südstern GmbH</td><td>2026-09-16</td><td>4K Webcam</td><td>159.90</td><td class="status-completed">completed</td></tr>
+    </tbody>
+  </table>
+</body>
+</html>
